@@ -22,3 +22,4 @@ Route::get('/', function () {
 Route::get('/', [ContactController::class, 'index']);
 Route::post('/contacts/confirm', [ContactController::class, 'confirm']);
 Route::get('/', [CategoryController::class, 'index']);
+Route::post('/contacts', [ContactController::class, 'store']);
