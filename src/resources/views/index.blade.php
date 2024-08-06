@@ -141,7 +141,7 @@
           </div>
           <div class="form__group-content">
             <div class="form__input--textarea">
-              <textarea name="detail" placeholder="資料をいただきたいです"></textarea>
+              <textarea name="detail" placeholder="お問い合わせ内容をご記載ください"></textarea>
             </div>
           </div>
         </div>
