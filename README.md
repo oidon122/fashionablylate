@@ -1,6 +1,6 @@
 # FashinablyLate
 
-### 開発環境
+## 開発環境
 
 Dockerビルド
 1. `git clone git@github.com:oidon122/fashionablylate.git`
@@ -16,11 +16,13 @@ Laravel開発環境
 5. php artisan migrate
 6. php artisan db:seed
 
-### 使用技術
+## 使用技術
 - PHP
 - Laravel
 - MySQL 8.0.26
 
-### URL
+## ER図
+
+## URL
 - 開発環境：http://localhost
 - phpMyAdmin
