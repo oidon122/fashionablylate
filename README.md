@@ -18,7 +18,7 @@ Laravel開発環境
 
 ## 使用技術
 - PHP
-- Laravel
+- Laravel 11.20.0
 - MySQL 8.0.26
 
 ## ER図
