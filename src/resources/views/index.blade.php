@@ -147,7 +147,7 @@
               <select name="content" id="">
                 <option value="">選択してください</option>
                 @foreach($categories as $category)
-                <option value="{{ $category->id }}" {{ old('content') == $category->id ? 'selected' : '' }}>{{ $category->content }}</option>
+                <option value="{{ $category->id }}">{{ $category->content }}</option>
                 @endforeach
               </select>
             </div>

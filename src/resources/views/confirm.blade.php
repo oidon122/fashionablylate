@@ -42,7 +42,7 @@
                 @elseif($contact['gender'] ==2)女性
                 @else その他
                 @endif
-                <input name="gender" value="{{ $contact['gender'] }}" />
+                <input type="hidden" name="gender" value="{{ $contact['gender'] }}" />
               </td>
             </tr>
             <tr class="confirm-table__row">
@@ -77,7 +77,7 @@
                 @elseif($contact['content'] ==3)3. 商品トラブル
                 @elseif($contact['content'] ==4)4. ショップへのお問い合わせ
                 @else 5. その他
-                <input name="content" value="{{ $contact['content'] }}" />
+                <input type="hidden" name="content" value="{{ $contact['content '] }}" />
                 @endif
               </td>
             </tr>
