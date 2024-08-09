@@ -25,8 +25,7 @@ Laravel 開発環境
 - MySQL 8.0.26
 
 ## ER 図
-
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/chizuruoi/coachtech/laravel/ability-test/index.png?version%3D1723162648798)
+[ER図](index.png)
 
 ## URL
 
