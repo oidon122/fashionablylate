@@ -25,7 +25,7 @@ Laravel 開発環境
 - MySQL 8.0.26
 
 ## ER 図
-[ER図]<img src="" alt="index.png">
+[ER図](index.png)
 
 ## URL
 
