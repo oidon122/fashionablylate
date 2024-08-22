@@ -26,7 +26,6 @@ class ContactController extends Controller
     {
         $contact = $request->only(['last_name', 'first_name', 'gender', 'email', 'tel', 'address', 'building', 'content', 'detail']);
         $contact['category_id'] = $request->input('content');
-        
         Contact::create($contact);
         return view('thanks');
     }
